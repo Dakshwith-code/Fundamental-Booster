@@ -1,0 +1,17 @@
+print("welcome to the interactive personal data collector !")
+print("***********************************************************************************")
+NAME = str(input("enter your name:"))
+AGE = int(input("enter your age:"))
+HEIGHT = float(input("enter your hight:"))
+FAVOURITE_NUMBER = int(input("enter your favourite number:"))
+print("***********************************************************************************")
+print("Thankuuuu ! here is the information we collected")
+print("name:",NAME,"(type:", type(NAME),"memory address:", id(NAME),")")
+print("age:",AGE,"(type:", type(AGE),"memory address:", id(AGE),")")
+print("height:",HEIGHT,"(type:",type(HEIGHT),"memory address:",id(HEIGHT),")")
+print("Favourite_Number:",FAVOURITE_NUMBER,"(type:",type(FAVOURITE_NUMBER),"memory number:",id(FAVOURITE_NUMBER),")")
+age = int(input("Enter your age: "))
+current_year = 2026
+birth_year = current_year - age
+print("Your birth year is:", birth_year)
+print("thankuuu for using the personal data collector. have a goodday")
